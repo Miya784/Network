@@ -41,7 +41,7 @@ This document provides a step-by-step guide for configuring Single Area OSPF on 
     Router# write memory
     ```
 
-    ![Single Area OSPF Network Diagram](SingleAreaOSPF-Network/images/SingleAreaOSPF.png)
+    ![Single Area OSPF Network Diagram](/SingleAreaOSPF-Network/images/SingleAreaOSPF.png)
 
 ### Explanation
 - **Router ID**: A unique identifier for the OSPF router, often set to an IP address for simplicity.
