@@ -17,7 +17,7 @@ This section provides the configuration steps for setting up the Routing Informa
     ```
 3. **Set RIP Version to 2:**
     ```plaintext
-    Router(config-router)# version 2
+    Router0(config-router)# version 2
     ```
 4. **Specify Network Addresses:**
     - **Network hop1**: 192.168.1.0
@@ -25,19 +25,19 @@ This section provides the configuration steps for setting up the Routing Informa
     - **Network hop3**: 20.0.0.0
 
     ```plaintext
-    Router(config-router)# network 192.168.1.0
-    Router(config-router)# network 10.0.0.0
-    Router(config-router)# network 20.0.0.0
+    Router0(config-router)# network 192.168.1.0
+    Router0(config-router)# network 10.0.0.0
+    Router0(config-router)# network 20.0.0.0
     ```
 5. **Exit RIP Configuration Mode and Global Configuration Mode:**
     ```plaintext
-    Router(config-router)# exit
-    Router(config)# exit
+    Router0(config-router)# exit
+    Router0(config)# exit
     ```
 
 6. **Save Configuration to Memory:**
     ```plaintext
-    Router# write memory
+    Router0# write memory
     ```
 ![RIP Network Diagram](images/RIP-network.png)
 
