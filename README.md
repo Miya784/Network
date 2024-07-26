@@ -5,5 +5,5 @@ Welcome to the Network Lab Testing project! This project is designed to help wit
 This repository contains resources for testing and documenting various network configurations and protocols. It includes configuration files, network diagrams, and scripts for lab exercises and experiments.
 
 ## Project Structure
--RIP Neiwork
--Single Area OSPF Network
+- RIP Neiwork
+- Single Area OSPF Network
