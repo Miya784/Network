@@ -6,3 +6,4 @@ This repository contains resources for testing and documenting various network c
 
 ## Project Structure
 -RIP Neiwork
+-Single Area OSPF Network
